@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slotly — контакты</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="index.html"> Slotly </a>
+
+        <nav class="header__nav">
+          <a class="header__link" href="index.html"> Главная </a>
+
+          <a class="header__link" href="services.html"> Услуги </a>
+
+          <a class="header__link header__link_active" href="contacts.html">
+            Контакты
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <div class="page-intro__container">
+          <p class="page-intro__subtitle">Связь с нами</p>
+
+          <h1 class="page-intro__title">Контакты</h1>
+
+          <p class="page-intro__text">
+            Если у вас есть вопросы по работе сервиса, свяжитесь с нами.
+          </p>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="contacts__container">
+          <div class="contacts__card">
+            <h2 class="contacts__title">Контактная информация</h2>
+
+            <p class="contacts__item">Email: support@slotly.ru</p>
+
+            <p class="contacts__item">Телефон: +7 (999) 000-00-00</p>
+
+            <p class="contacts__item">Москва</p>
+          </div>
+
+          <form class="contact-form">
+            <h2 class="contact-form__title">Написать нам</h2>
+
+            <input
+              class="contact-form__input"
+              type="text"
+              placeholder="Ваше имя"
+            />
+
+            <input
+              class="contact-form__input"
+              type="email"
+              placeholder="Email"
+            />
+
+            <textarea
+              class="contact-form__textarea"
+              placeholder="Сообщение"
+            ></textarea>
+
+            <button
+              class="button button_theme_primary contact-form__button"
+              type="button"
+            >
+              Отправить
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© 2026 Slotly</p>
+    </footer>
+  </body>
+</html>
